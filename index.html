@@ -36,7 +36,7 @@
           <h1>There's no such thing as a dumb question!</h1>
           <h2>Get instant answers to any question with our Slack app powered by ChatGPT</h2>
           <h5>Your Email Address</h3>
-          <input id="email-input" type="text" placeholder="Email" name="email" class="form-control mb-3" hx-post="https://lo9whtzd96.execute-api.us-east-1.amazonaws.com/prod/email"/>
+          <input id="email-input" type="email" name="email" class="form-control mb-3" hx-post="https://lo9whtzd96.execute-api.us-east-1.amazonaws.com/prod/email" hx-swap="beforeend" hx-target="#event" hx-trigger="change" placeholder="name@example.com"/>
         </div>
       </div>
 </body>
