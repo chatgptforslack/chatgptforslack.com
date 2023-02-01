@@ -37,8 +37,8 @@
           <h2>Get instant answers to any question with our Slack app powered by OpenAI's GPT-3</h2>
           <h5>Be the first to know when we launch - join our waitlist now!</h3>
             <form hx-post="https://lo9whtzd96.execute-api.us-east-1.amazonaws.com/prod/email">
-                <div hx-target="this" hx-swap="innerHTML">
-                    <input type="email" name="email" placeholder="name@example.com" class="form-control mb-3" hx-post="https://lo9whtzd96.execute-api.us-east-1.amazonaws.com/prod/email">
+                <div hx-target="this" hx-swap="outerHTML">
+                    <input type="email" name="email" placeholder="name@example.com" class="form-control mb-3">
                 </div>
                 <button type="button" class="btn btn-info">Submit</button>
             </form>
