@@ -40,11 +40,9 @@
             <form hx-post="https://lo9whtzd96.execute-api.us-east-1.amazonaws.com/prod/email">
                 <div hx-target="this" hx-swap="outerHTML">
                     <input type="email" name="email" placeholder="name@example.com" class="form-control mb-3">
+                    <button type="button" class="btn btn-info">Submit</button> 
                 </div>
             </form>
-            <div hx-target="this" hx-swap="outerHTML">
-                <button type="button" class="btn btn-info" hx-post="https://lo9whtzd96.execute-api.us-east-1.amazonaws.com/prod/email">Submit</button> 
-            </div>
         </div>
       </div>
 </body>
